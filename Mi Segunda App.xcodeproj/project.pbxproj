@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB32567B1F6B2AFF001FD7BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32567A1F6B2AFF001FD7BB /* main.m */; };
 		DB32567E1F6B2AFF001FD7BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32567D1F6B2AFF001FD7BB /* AppDelegate.m */; };
-		DB3256811F6B2AFF001FD7BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3256801F6B2AFF001FD7BB /* ViewController.m */; };
+		DB3256811F6B2AFF001FD7BB /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3256801F6B2AFF001FD7BB /* Home.m */; };
 		DB3256841F6B2AFF001FD7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3256821F6B2AFF001FD7BB /* Main.storyboard */; };
 		DB3256871F6B2AFF001FD7BB /* Mi_Segunda_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB3256851F6B2AFF001FD7BB /* Mi_Segunda_App.xcdatamodeld */; };
 		DB3256891F6B2AFF001FD7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3256881F6B2AFF001FD7BB /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		DB32567A1F6B2AFF001FD7BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB32567C1F6B2AFF001FD7BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB32567D1F6B2AFF001FD7BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB32567F1F6B2AFF001FD7BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DB3256801F6B2AFF001FD7BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB32567F1F6B2AFF001FD7BB /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		DB3256801F6B2AFF001FD7BB /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		DB3256831F6B2AFF001FD7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB3256861F6B2AFF001FD7BB /* Mi_Segunda_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mi_Segunda_App.xcdatamodel; sourceTree = "<group>"; };
 		DB3256881F6B2AFF001FD7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		DB3256781F6B2AFE001FD7BB /* Mi Segunda App */ = {
 			isa = PBXGroup;
 			children = (
-				DB32567C1F6B2AFF001FD7BB /* AppDelegate.h */,
-				DB32567D1F6B2AFF001FD7BB /* AppDelegate.m */,
-				DB32567F1F6B2AFF001FD7BB /* ViewController.h */,
-				DB3256801F6B2AFF001FD7BB /* ViewController.m */,
+				DB3256931F6B2C10001FD7BB /* Main */,
+				DB3256951F6B2C5B001FD7BB /* Controllers */,
 				DB3256821F6B2AFF001FD7BB /* Main.storyboard */,
 				DB3256881F6B2AFF001FD7BB /* Assets.xcassets */,
 				DB32568A1F6B2AFF001FD7BB /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				DB32567A1F6B2AFF001FD7BB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB3256931F6B2C10001FD7BB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DB32567D1F6B2AFF001FD7BB /* AppDelegate.m */,
+				DB32567C1F6B2AFF001FD7BB /* AppDelegate.h */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DB3256951F6B2C5B001FD7BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB3256801F6B2AFF001FD7BB /* Home.m */,
+				DB32567F1F6B2AFF001FD7BB /* Home.h */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB3256811F6B2AFF001FD7BB /* ViewController.m in Sources */,
+				DB3256811F6B2AFF001FD7BB /* Home.m in Sources */,
 				DB32567E1F6B2AFF001FD7BB /* AppDelegate.m in Sources */,
 				DB32567B1F6B2AFF001FD7BB /* main.m in Sources */,
 				DB3256871F6B2AFF001FD7BB /* Mi_Segunda_App.xcdatamodeld in Sources */,
